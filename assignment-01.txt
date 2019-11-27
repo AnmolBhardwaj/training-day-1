@@ -1,0 +1,28 @@
+funtion trailingZero(int n){
+    int count = 0;
+    for (int i=5; i/n > 1; i = i*5){
+        count = count+ n/i;
+    }
+
+
+    function primne (int n){
+
+        int temp[] = []; 
+        for(int i=2;i<-n;i++){
+            temp[i] = i;
+        }
+
+        for(count=2;count<n;count++){
+        int count = 2;
+        for(int i=count; i<=n; i++){
+            
+            if(temp[i]%count == 0){
+                temp[i] = 0
+            } 
+            else{
+                temp[i] = temp[i]
+            } 
+        }
+        }
+        
+    }

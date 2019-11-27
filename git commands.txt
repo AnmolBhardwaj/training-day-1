@@ -1,0 +1,9 @@
+git clone <url_name>
+
+make changes/code
+
+git add . - [ . for all the files] /  temporarily save the changes / also called staging
+
+git commit 
+git push
+
